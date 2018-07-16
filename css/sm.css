@@ -59,7 +59,7 @@ em {
 }
 
 body.index {
-    /*background: url("../images/bg.jpg")!*tpa=https://www.slowmist.com/images/bg.jpg*! no-repeat 50% 50%;*/
+    background: url("../images/colorful.jpg")/*tpa=https://www.slowmist.com/images/bg.jpg*/ no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -91,9 +91,9 @@ body.index {
 .header .logo {
     float: left;
     margin-left: 5%;
-    width: 200px;
-    height: 80px;
-    background: url("../images/logo.jpg")/*tpa=https://www.slowmist.com/images/logo.png*/ no-repeat 0 50%;
+    width: 178px;
+    height: 60px;
+    background: url("../images/logotitle.jpg")/*tpa=https://www.slowmist.com/images/logo.png*/ no-repeat 0 50%;
     background-size: auto 60px;
     transition: all .8s ease;
 }
@@ -150,7 +150,7 @@ body.index {
 }
 
 .header.top .logo {
-    background: url("../images/logo.jpg")/*tpa=https://www.slowmist.com/images/logo-b.png*/ no-repeat 0 50%;
+    background: url("../images/logotitle.jpg")/*tpa=https://www.slowmist.com/images/logo-b.png*/ no-repeat 0 50%;
     background-size: auto 60px;
     transition: all .8s ease;
 }
@@ -180,11 +180,9 @@ body.index {
 .header .link-github { float: left; margin-left: 40px; padding-top: 8px;}
 .header .link-github a { color: #fff;}
 .header .link-github a:hover { color: #fff; text-decoration: underline;}
-.header .link-github a i { display: inline-block; width: 24px; height: 24px; margin-right: 5px; background: url("../images/icon-github.png")/*tpa=https://www.slowmist.com/images/icon-github.png */no-repeat 0 0; background-size: 24px auto; position: relative; top: 6px;}
 
 .header.top .link-github a { color: #333;}
 .header.top .link-github a:hover { color: #000; text-decoration: underline;}
-.header.top .link-github a i { background: url("../images/icon-github.png")/*tpa=https://www.slowmist.com/images/icon-github.png*/ no-repeat 0 100%; background-size: 24px auto;}
 
 .s-header #menu ul { float: left;}
 .s-header .link-github { float: left; margin-left: 40px; padding-top: 8px;}
@@ -282,8 +280,8 @@ body.index {
 }
 
 .scene .background {
-    /*background: url("../images/bg1.jpg")!*tpa=https://www.slowmist.com/images/bg1.jpg*! no-repeat 50% 50%;*/
-    bottom: -100px;
+    background: url("../images/main.jpg")/*tpa=https://www.slowmist.com/images/bg1.jpg*/ no-repeat 100% 100%;
+    bottom: 0px;
     background-size: cover;
     position: absolute;
     width: 110%;
@@ -313,7 +311,7 @@ body.index {
 }
 
 #section0 .fp-bg {
-    background-color: #f5f5f5;
+    background-color: #222;
 }
 
 #section0 h2 {
@@ -351,7 +349,7 @@ body.index {
 
 /*--================================================2service===========================================--*/
 #section1 .fp-bg {
-    background-color: #eeeeee;
+    background-color: #fff;
 }
 
 #section1 p {
@@ -591,12 +589,6 @@ body.index {
 
 /*--================================================5contactUs===========================================--*/
 #section4 .fp-bg {
-    background-color: #fff;
-}
-#section6 .fp-bg {
-    background-color: #fff;
-}
-#section7 .fp-bg {
     background-color: #fff;
 }
 
@@ -869,7 +861,7 @@ body.index {
     margin-left: 5%;
     width: 178px;
     height: 60px;
-    background: url("../images/logo.jpg")/*tpa=https://www.slowmist.com/images/logo-b.png*/ no-repeat 0 50%;
+    background: url("../images/logo-b.png")/*tpa=https://www.slowmist.com/images/logo-b.png*/ no-repeat 0 50%;
     background-size: auto 60px;
     transition: all .8s ease;
 }
@@ -1161,7 +1153,7 @@ body.index {
     margin-left: 5%;
     width: 178px;
     height: 60px;
-    background: url("../images/logo.jpg")/*tpa=https://www.slowmist.com/images/logo-b.png*/ no-repeat 50% 50%;
+    background: url("../images/logo-b.png")/*tpa=https://www.slowmist.com/images/logo-b.png*/ no-repeat 0 50%;
     background-size: auto 60px;
     transition: all .8s ease;
 }
