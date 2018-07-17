@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>大爱时光</title>
+    <title>蓝爵科技</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/swiper-3.4.0.min.css">
@@ -12,223 +12,353 @@
     <link rel="stylesheet" href="css/sm.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <script type="text/javascript">
-        // 适配微信JS-SDK
-        document.addEventListener("DOMContentLoaded", function (event) {
-            var isWeixinBrowser = (/micromessenger/i).test(navigator.userAgent);
-            if (isWeixinBrowser && (window.location.search || window.location.pathname != '/demo.html')) window.location.href = '/demo.html' + window.location.hash;
-        });
-    </script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <style type="text/css">
+        .modal.fade.in{
+            top:60px;
+        }
+    </style>
+
+
+
+
 </head>
 <body class="index fp-viewing-service" style="overflow: hidden; height: 100%;">
 <div class="header animated fadeInDown top">
     <div class="logo">
-        <a href="demo.html"></a>
+        <!--<img src="images/logo.jpg" style="height: auto;width: 10%;position: absolute;left:8%;top:5%">-->
     </div>
     <div id="menu" class="clearfix">
         <ul class="clearfix">
             <li data-menuanchor="home" class="active"><a href="#home">首页</a></li>
-            <li data-menuanchor="service"><a href="#service">功能</a></li>
-            <li data-menuanchor="news"><a href="#news">动态</a></li>
+            <li data-menuanchor="service"><a href="#service">软件开发</a></li>
+            <li data-menuanchor="news"><a href="#news">产品中心</a></li>
             <li data-menuanchor="aboutUs"><a href="#aboutUs">关于</a></li>
-            <!--<li data-menuanchor="contactUs"><a href="#contactUs">联系</a></li>-->
+            <li data-menuanchor="contactUs"><a href="#contactUs">联系</a></li>
+            <li data-menuanchor="partner"><a href="#partner">公司资质</a></li>
         </ul>
     </div>
 
 </div>
 <div id="fullpage" class="fullpage-wrapper" style="height: 100%; position: relative; touch-action: none; transform: translate3d(0px, -734px, 0px); transition: all 0ms ease;">
     <div class="section fp-section fp-table" active id="section0" data-anchor="home" style="height: 734px;">
-        <div class="fp-tableCell" style="height: 734px;">
-            <div class="fp-bg">
-                <div data-relative-input="true" id="scene" class="scene" data-friction-x="0.1" data-friction-y="0.1"
-                     data-scalar-x="25" data-scalar-y="15"
-                     style="width: 1535px; height: 734px; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
-                    <div class="layer" data-depth="0.00"
-                         style="position: relative; display: block; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"></div>
-                    <div class="layer" data-depth="0.10"
-                         style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-37.5183px, 2.7px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
-                        <div class="background"></div>
+        <div class="fp-tableCell" style="height: 734px;background: white">
+            <div class="fp-bg"></div>
+            <div class="container" >
+                <div class="trent-slider">
+                    <div class="t-slide current-t-slide">
+                        <img src="images/carousel1.jpg" alt="">
                     </div>
-                    <div class="layer" data-depth="0.15"
-                         style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-56.2774px, 4.05px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
-                        <div class="ob1">
-                            <img src="images/clouds.png">
+                    <div class="t-slide">
+                        <img src="images/carousel2.jpg" alt="">
+                    </div>
+                    <div class="t-slide">
+                        <img src="images/carousel3.jpg" alt=""/>
+                    </div>
+                    <div class="t-slider-controls">
+                        <div class="arrow right-arrow">
+                            <div class="arrow-container">
+                                <div class="arrow-icon"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="layer" data-depth="0.20"
-                         style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-75.0365px, 5.4px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
-                        <div class="ob2">
-                            <img src="images/clouds.png">
+                        <div class="arrow left-arrow">
+                            <div class="arrow-container">
+                                <div class="arrow-icon"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="layer" data-depth="0.20"
-                         style="position: absolute; display: block; left: 0px; top: 0px; transform: translate3d(-75.0365px, 5.4px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
-                        <div class="ob3">
-                            <img src="images/clouds.png">
+                        <div class="t-load-bar">
+                            <div class="inner-load-bar"></div>
+                        </div>
+                        <div class="t-dots-container">
+                            <div class="t-slide-dots-wrap">
+                                <div class="t-slide-dots">
+
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <h2 class="animated fadeInUp" style="display: none;font-family: STXihei;font-size: 3rem">记录孩子的美好时光</h2>
-            <p class="a-delay1 animated fadeInUp" style="display: none;font-family: STXihei;font-size: 2rem">“大爱时光”，给每一个孩子的爱 </p>
             <a href="#service" class="icon-arrow" style="display: none;"></a>
         </div>
     </div>
-    <div class="section fp-section fp-table  fp-completely" id="section1" data-anchor="service" style="height: 734px;">
+    <div class="section fp-section fp-table  fp-completely" id="section1" data-anchor="service" style="height: 734px;background: white">
         <div class="fp-tableCell" style="height: 734px;">
             <div class="fp-bg"></div>
             <div class="titpic animated fadeInUp" style="display: block">
-                <img src="images/rainbow.jpg" style="width: 30%;height: auto">
-            </div>
-            <div class="tit a-delay1 animated fadeInUp" style="display: block;">
-                <p style="font-size: 25px;font-size:2rem;color: #007aff;font-family: STXihei;">啊，幸福的年代，谁会拒绝再体验一次童年生活。</p>
+
             </div>
             <ul class="clearfix" style="">
-                <li class="l1 animated fadeInUp" style="display: block">
+                <li class="l1 animated fadeInUp" style="display: block;margin-left: 175px">
                     <div class="s-content">
                         <a href="service-security-audit.html">
-                            <i class="fa fa-book" aria-hidden="true" style="font-size: 70px;color: #007aff">
-
-                            </i>
-                            <h3 style="color: #007aff;font-family: STXihei">故事汇</h3>
-                            <p style="color: #007aff;font-family: STXihei">分享出你所讲述的故事，让更多人感受到</p>
+                            <i class="fa fa-weixin" aria-hidden="true" style="font-size: 70px;"></i>
+                            <h3>微信小程序</h3>
                             <div class="more">
-                                <span style="color: #007aff;font-family: STXihei;font-family: STXihei">详细了解</span>
+                                <span>详细了解</span>
                             </div>
+
                         </a>
                     </div>
                 </li>
                 <li class="l2 animated fadeInUp" style="display: block;">
                     <div class="s-content">
                         <a href="service-security-consulting.html">
-                            <i class="fa fa-child" aria-hidden="true" style="font-size: 70px;color: #007aff">
-
-                            </i>
-                            <h3 style="color: #007aff;font-family: STXihei">时光轴</h3>
-                            <p style="color: #007aff;font-family: STXihei">记录孩子与父母的快乐时光，分享成长的快乐时光</p>
-                            <div class="more"><span style="color: #007aff;font-family: STXihei">详细了解</span></div>
+                            <i class="fa fa-laptop" aria-hidden="true" style="font-size: 70px;"></i>
+                            <h3>Web开发</h3>
+                            <div class="more"><span>详细了解</span></div>
                         </a>
                     </div>
                 </li>
                 <li class="l3 animated fadeInUp" style="display: block;">
                     <div class="s-content">
                         <a href="service-defense-deployment.html">
-                            <i class="fa fa-clock-o" aria-hidden="true" style="font-size: 70px;color: #007aff">
-
-                            </i>
-                            <h3 style="color: #007aff;font-family: STXihei">打卡</h3>
-                            <p style="color: #007aff;font-family: STXihei">记录每一天的过程，感受每日的点滴时光</p>
-                            <div class="more"><span style="color: #007aff;font-family: STXihei">详细了解</span></div>
-                        </a>
-                    </div>
-                </li>
-                <li class="l4 animated fadeInUp" style="display: block;">
-                    <div class="s-content">
-                        <a href="service-threat-intelligence.html">
-                            <i class="fa fa-heart-o aria-hidden=" style="font-size: 70px;color: #007aff">
-
-                            </i>
-                            <h3 style="color: #007aff;font-family: STXihei">公益</h3>
-                            <p style="color: #007aff;font-family: STXihei">热衷于公益事业，关爱我们身边的每一个孩子</p>
-                            <div class="more"><span style="color: #007aff;font-family: STXihei">详细了解</span></div>
+                            <i class="fa fa-mobile" aria-hidden="true" style="font-size: 70px"></i>
+                            <h3>APP开发</h3>
+                            <div class="more"><span>详细了解</span></div>
                         </a>
                     </div>
                 </li>
             </ul>
         </div>
     </div>
-    <div class="section fp-section fp-table" id="section2" data-anchor="news" style="height: 734px;">
+    <div class="section fp-section fp-table" id="section2" data-anchor="news" style="height: 734px;background: white">
         <div class="fp-tableCell" style="height: 734px;">
             <div class="fp-bg"></div>
-            <div class="news-zx animated fadeInUp a-delay1" style="display: none;">
-                <div class="tabs-tit clearfix">
-                    <a href="#">微信文章</a>
-                    <a href="#">微信文章</a></div>
-                <div class="swiper-container" id="tabs-container-zx">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <ul class="news-list clearfix">
-                                <li>
-                                    <a href="https://mp.weixin.qq.com/s/unm9ooZQt_jDJUeQSKQ7-w" target="_blank">
-                                        <img src="images/love.jpg">
-                                        <h3>大爱时光</h3>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://mp.weixin.qq.com/s/unm9ooZQt_jDJUeQSKQ7-w" target="_blank">
-                                        <img src="images/love.jpg">
-                                        <h3>大爱时光</h3>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://mp.weixin.qq.com/s/unm9ooZQt_jDJUeQSKQ7-w" target="_blank">
-                                        <img src="images/love.jpg">
-                                        <h3>大爱时光</h3>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="swiper-slide">
-                            <ul class="news-list clearfix">
-                                <li>
-                                    <a href="https://mp.weixin.qq.com/s/unm9ooZQt_jDJUeQSKQ7-w" target="_blank">
-                                        <img src="images/love.jpg">
-                                        <h3>大爱时光</h3>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://mp.weixin.qq.com/s/unm9ooZQt_jDJUeQSKQ7-w" target="_blank">
-                                        <img src="images/love.jpg">
-                                        <h3>大爱时光</h3>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://mp.weixin.qq.com/s/unm9ooZQt_jDJUeQSKQ7-w" target="_blank">
-                                        <img src="images/love.jpg">
-                                        <h3>大爱时光</h3>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <a href="news.html" class="btn-more">查看更多动态</a>
-            </div>
-        </div>
-    </div>
-    <div class="section fp-section fp-table" id="section3" data-anchor="aboutUs" style="height: 734px;">
-        <div class="fp-tableCell" style="height: 734px;">
-            <div class="fp-bg"></div>
-            <div class="about-con">
-                <p class="a-delay2 animated fadeInUp" style="display: none;">
-                <div class="tit a-delay1 animated fadeInUp" style="display: none;color: #181818;font-family: STXihei;font-size: 25px;font-size: 2rem">大爱时光 ——The Big Love Time</div>
-                    <h2 style="color: #181818;font-family: STXihei;font-size: 18px;font-size: 1rem">这里是孩子和父母点滴时光的记录， 更是每个孩子向往美好未来以及成就梦想的信念向导！ </h2>
-                    <h2 style="color: #181818;font-family: STXihei;font-size: 18px;font-size: 1rem">让童真与爱温暖每一个人，我们携手行动吧！</h2>
-                </p>
-                <div class="contact-con">
-                    <ul class="clearfix">
-                        <li class="a-delay2 animated fadeInLeft" style="display: none;margin-left: 30%">
-                            <h3><i class="icon-wx"></i>  微信公众号</h3>
-                            <img src="images/wechat.jpg">
+            <div class="titpic animated fadeInUp" style="display: block">
+            <div class="news-zx animated fadeInUp a-delay1" style="display: block;">
+                <div class="row">
+                    <ul class="clearfix" style="">
+                        <li class="l2 animated fadeInUp col-md-4 col-sm-6 col-xs-12" style="display: block;">
+                            <div class="s-content" style="border: solid 1px gainsboro">
+                                <i href="">
+                                    <i>
+                                        <img src="images/news/1.jpg" style="height:80px;width: 180px">
+                                    </i>
+                                    <h3 style="color: #181818;font-size: 15px">蓝爵科技(公司介绍)</h3>
+                                    <button id="bt1" type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" style="margin-bottom: 15px">详细了解</button>
+                                </i>
+                            </div>
+                        </li>
+                        <li class="l2 animated fadeInUp col-md-4 col-sm-6 col-xs-12" style="display: block;">
+                            <div class="s-content" style="border: solid 1px gainsboro">
+                                <i href="">
+                                    <i>
+                                        <img src="images/news/2.jpg" style="height:80px;width: 180px">
+                                    </i>
+                                    <h3 style="color: #181818;font-size: 15px">中新网安(网络安全)</h3>
+                                    <button id="bt2" type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" style="margin-bottom: 15px">详细了解</button>
+                                </i>
+                            </div>
+                        </li>
+                        <li class="l2 animated fadeInUp col-md-4 col-sm-6 col-xs-12" style="display: block;">
+                            <div class="s-content" style="border: solid 1px gainsboro">
+                                <a href="service-security-consulting.html">
+                                    <i>
+                                        <img src="images/news/3.jpg" style="height:80px;width: 180px">
+                                    </i>
+                                    <h3 style="color: #181818;font-size: 15px">Juniper(基础网络)</h3>
+                                    <button type="button" class="btn btn-primary" style="margin-bottom: 15px">详细了解</button>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="clearfix" style="">
+                        <li class="l2 animated fadeInUp col-md-4 col-sm-6 col-xs-12" style="display: block;">
+                            <div class="s-content" style="border: solid 1px gainsboro">
+                                <a href="service-security-consulting.html">
+                                    <i>
+                                        <img src="images/news/4.png" style="height:80px;width: 180px">
+                                    </i>
+                                    <h3 style="color: #181818;font-size: 15px">科能腾达(IT运营)</h3>
+                                    <button type="button" class="btn btn-primary" style="margin-bottom: 15px">详细了解</button>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="l2 animated fadeInUp col-md-4 col-sm-6 col-xs-12" style="display: block;">
+                            <div class="s-content" style="border: solid 1px gainsboro">
+                                <a href="service-security-consulting.html">
+                                    <i>
+                                        <img src="images/news/5.jpg" style="height:80px;width: 180px">
+                                    </i>
+                                    <h3 style="color: #181818;font-size: 15px">360(网络安全)</h3>
+                                    <button type="button" class="btn btn-primary" style="margin-bottom: 15px">详细了解</button>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="l2 animated fadeInUp col-md-4 col-sm-6 col-xs-12" style="display: block;">
+                            <div class="s-content" style="border: solid 1px gainsboro">
+                                <a href="service-security-consulting.html">
+                                    <i>
+                                        <img src="images/news/6.jpg" style="height:80px;width: 180px">
+                                    </i>
+                                    <h3 style="color: #181818;font-size: 15px">爱数(存储备份)</h3>
+                                    <button type="button" class="btn btn-primary" style="margin-bottom: 15px">详细了解</button>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="clearfix" style="">
+                        <li class="l2 animated fadeInUp col-md-4 col-sm-6 col-xs-12" style="display: block;">
+                            <div class="s-content" style="border: solid 1px gainsboro">
+                                <a href="service-security-consulting.html">
+                                    <i>
+                                        <img src="images/news/7.png" style="height:80px;width: 180px">
+                                    </i>
+                                    <h3 style="color: #181818;font-size: 15px">杭州美创(数据安全)</h3>
+                                    <button type="button" class="btn btn-primary" style="margin-bottom: 15px">详细了解</button>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="l2 animated fadeInUp col-md-4 col-sm-6 col-xs-12" style="display: block;">
+                            <div class="s-content" style="border: solid 1px gainsboro">
+                                <a href="service-security-consulting.html">
+                                    <i>
+                                        <img src="images/news/8.png" style="height:80px;width: 180px">
+                                    </i>
+                                    <h3 style="color: #181818;font-size: 15px">VMware虚拟化(其他)</h3>
+                                    <button type="button" class="btn btn-primary" style="margin-bottom: 15px">详细了解</button>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="l2 animated fadeInUp col-md-4 col-sm-6 col-xs-12" style="display: block;">
+                            <div class="s-content" style="border: solid 1px gainsboro">
+                                <a href="service-security-consulting.html">
+                                    <i>
+                                        <img src="images/news/9.png" style="height:80px;width: 180px">
+                                    </i>
+                                    <h3 style="color: #181818;font-size: 15px">盘石软件(其他)</h3>
+                                    <button type="button" class="btn btn-primary" style="margin-bottom: 15px">详细了解</button>
+                                </a>
+                            </div>
                         </li>
                     </ul>
                 </div>
             </div>
+            </div>
+
         </div>
     </div>
+    <div class="section fp-section fp-table" id="section3" data-anchor="aboutUs" style="height: 734px;background: white">
+        <div class="fp-tableCell" style="height: 734px;">
+            <div class="fp-bg"></div>
+            <div class="titpic animated fadeInUp" style="display: none;">
+                <img src="images/title3.png">
+            </div>
+            <div class="tit a-delay1 animated fadeInUp" style="display: none;color: #181818;font-size: 25px">
+                <img src="images/logo.jpg" style="width: 140px;height: 110px">
+                <p>了解我们，知己知彼</p>
+            </div>
+            <div class="about-con">
+                <p class="a-delay2 animated fadeInUp" style="display: none;color: #181818;font-size: 15px">
+                    广州市蓝爵计算机科技有限公司（以下简称蓝爵科技）是一家专业的信息网络基础设施服务和解决方案提供商，专注于帮助客户规划、构建、维护和管理网络基础设施。公司运用在数据、语音、视频和移动等领域的专业技术，并结合在咨询、集成、维护和管理服务方面的独有技能，为客户定制提供信息安全、网络架构、融合通信、数据中心、应用交付、服务管理等解决方案及专业服务。
+                    蓝爵科技拥有领先的专业技术和资质认证，公司有20位网络领域的专业人员，超过30项各类专业认证。 公司总部设在中国广州，在深圳、江西等处设有办事处。蓝爵科技与众多国际领先的技术供应商建立了广泛的业务合作关系，并且屡获殊荣。
+                    蓝爵科技在华南、西南地区拥有多年的专业服务行业经验，在电信、金融、能源、交通、媒体、等领域拥有广泛的客户基础，业务和服务网络覆盖整个华南、西南等地区，2008年至今公司业务始终保持高速稳定的增长。
+                    在网络安全日益重要的今天，我们将以客户为中心、以高新技术服务为基础，为用户提供更加系统、更加全面的安全解决方案。
+                    作为一家以信息安全服务为创新竞争力的技术型企业，自2007年代理Juniper、CISCO、huawei全线产品以来，蓝爵科技十分重视对技术人才的吸纳与培养。我们拥有一批经验丰富、颇具实力的安全顾问和一支具有多项专业认证资格的技术工程师服务队伍。蓝爵科技非常重视技术的前瞻与实用性，公司的技术工程师每个月从不间断的参与各厂商的培训与动手实验，快速熟悉了国内、国外大多数产品的特性、特点。这些无疑是蓝爵科技引以为荣的强有力的业务根基和宝贵的服务资源。
+                    蓝爵科技致力于搭建一个提供全方位网络安全产品推广、销售及服务的专业平台，为广大行业用户提供完整有效的安全部署方案、高品质的网络安全产品、专业的技术保障和完善的服务体系。
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="section fp-section fp-table" id="section4" data-anchor="contactUs" style="height: 734px;background: white">
+        <div class="fp-tableCell" style="height: 734px;">
+            <div class="fp-bg"></div>
+            <div class="titpic animated fadeInUp" style="display: none;">
+                <img src="images/title4.png">
+            </div>
+            <div class="tit a-delay1 animated fadeInUp" style="display: none;">一起加入我们吧</div>
+            <div class="contact-con">
+                <ul class="clearfix">
+                    <li class="a-delay2 animated fadeInLeft" style="display: none;margin-left: 200px">
+                        <h3><i class="icon-wx"></i>微信公众号</h3>
+                        <img src="images/wechat.jpg">
+                        <p>微信号:大爱时光</p>
+                    </li>
+                </ul>
+                <p class="a-delay3 email-sm animated fadeInUp" style="display: none;"><a
+                        href="mailto:team@slowmist.com?subject=Zero"><i></i>团队邮箱：</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="section fp-section fp-table active fp-completely" id="section5" data-anchor="partner" style="height: 647px;background: white"><div class="fp-tableCell" style="height: 647px;">
+        <div class="titpic animated fadeInUp" style="display: block;color: #181818"><img src="images/title5.png"></div>
+        <div class="tit a-delay1 animated fadeInUp" style="display: block;"></div>
+        <div class="fp-tableCell" style="height: 734px;">
+            <div class="fp-bg"></div>
+            <div class="partner-con" style="margin-bottom: 10%">
+                <ul class="clearfix">
+                    <div class="features">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <img alt="" width="100%" height="160px" src="images/demo/z1.png">
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <img alt="" width="100%" height="160px" src="images/demo/z2.png">
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <img alt="" width="100%" height="160px" src="images/demo/z3.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <img alt="" width="100%" height="160px" src="images/demo/z4.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <img alt="" width="100%" height="160px" src="images/demo/z5.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <img alt="" width="100%" height="160px" src="images/demo/z6.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <img alt="" width="100%" height="160px" src="images/demo/z7.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <img alt="" width="100%" height="160px" src="images/demo/z8.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <img alt="" width="100%" height="160px" src="images/demo/z9.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <img alt="" width="100%" height="160px" src="images/demo/z10.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <img alt="" width="100%" height="160px" src="images/demo/z11.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <img alt="" width="100%" height="160px" src="images/demo/z12.jpg">
+                        </div>
 
+                    </div>
 
+                </ul>
+            </div>
+        </div>
+
+    </div></div>
 </div>
 
-<div class="footer a-delay1 animated fadeInUp" style="display: block">
-    <p style="color: #181818 ">经营许可证编号：<span>
-        <img src="images/ga.png">
-        <a href="http://www.miitbeian.gov.cn">粤ICP备07063280号-2</a>
-    </span>
-        © 版权所有 2007-2018
-    </p>
-</div>
 
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="Title" style="color: #181818;"></h2>
+            </div>
+            <div class="modal-body" style="color: #181818;">
+                <p id="content">
+
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="js/jquery.min.js" type="text/javascript"></script>
 <script src="js/jquery.parallax.js" type="text/javascript"></script>
@@ -238,6 +368,32 @@
 <script src="js/sm.js" type="text/javascript"></script>
 <script src="js/prism.js" type="text/javascript"></script>
 <script src="js/jweixin-1.2.0.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+
+<script src="js/main.js"></script>
+
+<script>
+    $('#bt1').click(function () {
+        $("#Title").text('蓝爵科技(公司介绍)');
+        $("#content").text('公司运用在数据、语音、视频和移动等领域的专业技术，并结合在咨询、集成、维护和管理服务方面的独有技能，为客户定制提供信息安全、网络架构、融合通信、数据中心、应用交付、服务管理等解决方案及专业服务。\n' +
+            '               蓝爵科技拥有领先的专业技术和资质认证，公司有20位网络领域的专业人员，超过30项各类专业认证。 公司总部设在中国广州，在深圳、江西等处设有办事处。蓝爵科技与众多国际领先的技术供应商建立了广泛的业务合作关系，并且屡获殊荣。\n' +
+            '               蓝爵科技在华南、西南地区拥有多年的专业服务行业经验，在电信、金融、能源、交通、媒体、等领域拥有广泛的客户基础，业务和服务网络覆盖整个华南、西南等地区，2008年至今公司业务始终保持高速稳定的增长。\n' +
+            '               在网络安全日益重要的今天，我们将以客户为中心、以高新技术服务为基础，为用户提供更加系统、更加全面的安全解决方案。\n' +
+            '               作为一家以信息安全服务为创新竞争力的技术型企业，自2007年代理Juniper、CISCO、huawei全线产品以来，蓝爵科技十分重视对技术人才的吸纳与培养。我们拥有一批经验丰富、颇具实力的安全顾问和一支具有多项专业认证资格的技术工程师服务队伍。\n' +
+            '               蓝爵科技非常重视技术的前瞻与实用性，公司的技术工程师每个月从不间断的参与各厂商的培训与动手实验，快速熟悉了国内、国外大多数产品的特性、特点。这些无疑是蓝爵科技引以为荣的强有力的业务根基和宝贵的服务资源。\n' +
+            '               蓝爵科技致力于搭建一个提供全方位网络安全产品推广、销售及服务的专业平台，为广大行业用户提供完整有效的安全部署方案、高品质的网络安全产品、专业的技术保障和完善的服务体系。')
+    });
+    $('#bt2').click(function () {
+        $("#Title").text('中新网安(网络安全)');
+        $("#content").text('中新网络信息安全股份有限公司（以下简称“中新网安”）成立于2002年，总部设在合肥，是一家集网络安全产品研发生产、安全集成、安全服务与一体的高新技术企业。\n' +
+            '中新网安以“致力于网络空间信息安全守护者”为使命，定位信息安全守护者，重点围绕国家关键基础设施（电力、交通、能源等）；重要信息系统（金融、党政、财税、保险等）；重要公众服务（互联网+政务、互联网+金融、互联网+医疗、互联网+民生等）；重要监管单位（公安部、国家互联网应急响应中心、中国信息安全测评中心、等级保护测评中心等）为服务对象，秉承务实、正直、进取、创新的态度，为客户提供专业的信息安全一体化服务，与用户共创和享受安全美好的网络空间。\n' +
+            '中新网安从成立至今，专注核心技术自主研发，在网络安全领域拥有多项自主知识产权和发明专利，目前总部拥有研发中心三座，总计6万2千平米，并在北京与清华网络行为研究所联合成立了中新网安北京研发中心。是国家信息安全漏洞库一级技术支持单位、中国互联网网络安全威胁治理联盟首批成员单位，参与并起草了多项国家网络安全行业标准。\n' +
+            '专业网络攻击防护安全产品：中新金盾抗拒绝服务系统-软件版、中新金盾高级持续性威胁防御平台、中新金盾抗拒绝服务系统。\n' +
+            '通用网络安全产品：中新金盾IDC/ISP业务测评管理系统、中新金盾第二代防火墙、中新金盾网络行为审计系统、中新金盾一体化漏洞扫描系统、中新金盾数据库审计系统、中新金盾安全管理与运维审计系统、中新金盾Web应用防护系统、中新金盾安全隔离与信息交换系统。\n')
+    });
+</script>
+
 
 
 <script type="text/javascript">
@@ -251,28 +407,14 @@
             afterLoad: function (anchorLink, index) {
                 var loadedSection = $(this);
 
-                if (anchorLink == 'home' || anchorLink == 'partner' ) {
-                    $(".header").removeClass("top");
-                    $("#fp-nav").removeClass("black")
-                } else {
                     $(".header").addClass("top");
                     $("#fp-nav").addClass("black")
-                }
+
 
                 if (index == 1) {
                     $("#section0 .animated").css("display", "block");
                     $(".icon-arrow").css("display", "block");
 
-                    // jQuery Selections
-                    var $scene = $('#scene');
-                    // Resize handler.
-                    (resize = function () {
-                        $scene[0].style.width = window.innerWidth + 'px';
-                        $scene[0].style.height = window.innerHeight + 'px';
-
-                    })();
-                    // Pretty simple huh?
-                    $scene.parallax();
                 } else {
                     $("#section0 .animated").css("display", "none");
                     $(".icon-arrow").css("display", "none");
@@ -319,9 +461,24 @@
                     $("#section2 .animated").css("display", "none");
                 }
                 if (index == 4) {
-                    $("#section3 .animated, .footer").css("display", "block");
+                    $("#section3 .animated").css("display", "block");
                 } else {
-                    $("#section3 .animated, .footer").css("display", "none");
+                    $("#section3 .animated").css("display", "none");
+                }
+                if (index == 5) {
+                    $("#section4 .animated").css("display", "block");
+                } else {
+                    $("#section4 .animated").css("display", "none");
+                }
+                if (index == 6) {
+                    $("#section5 .animated , .footer").css("display", "block");
+                } else {
+                    $("#section5 .animated , .footer").css("display", "none");
+                }
+                if (index == 7) {
+                    $("#section6 .animated").css("display", "block");
+                } else {
+                    $("#section6 .animated").css("display", "none");
                 }
 
 
@@ -329,7 +486,7 @@
             onLeave: function (index) {
                 var leavingSection = $(this);
 
-                if (index == 3) {
+                if (index == 6) {
                     $(".footer").css("display", "none");
                 }
             }
@@ -361,32 +518,7 @@
 
     });
 </script>
-<script type="text/javascript" src="//res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
-<script type="text/javascript">
-    // 微信JS-SDK配置
-    wx.config({
-        debug: false,
-        appId: 'wx671c33c176d0283a',
-        timestamp: '1531182302',
-        nonceStr: 'hM5mY2dI',
-        signature: '4015725109ba169bfb6e9fd4c8ec739c0ac6ff9e',
-        jsApiList: ['onMenuShareTimeline', 'onMenuShareAppMessage']
-    });
-    wx.ready(function () {
-        wx.onMenuShareTimeline({
-            title: '慢雾科技(SlowMist) - 专注区块链生态安全',
-            link: 'https://www.slowmist.com/',
-            imgUrl: 'https://www.slowmist.com/images/tplogo-2.png'
-        });
-        wx.onMenuShareAppMessage({
-            title: '慢雾科技(SlowMist) - 专注区块链生态安全',
-            desc: '核心能力包括：安全审计、防御部署、地下黑客风向标追踪。',
-            link: 'https://www.slowmist.com/',
-            imgUrl: 'https://www.slowmist.com/images/tplogo-2.png',
-            type: 'link'
-        });
-    });
-</script>
+
 
 
 </div>
