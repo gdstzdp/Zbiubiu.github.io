@@ -91,9 +91,9 @@ body.index {
 .header .logo {
     float: left;
     margin-left: 5%;
-    width: 200px;
-    height: 80px;
-    background: url("../images/logo.jpg")/*tpa=https://www.slowmist.com/images/logo.png*/ no-repeat 0 50%;
+    width: 178px;
+    height: 60px;
+    background: url("../images/langen1.gif")/*tpa=https://www.slowmist.com/images/logo.png*/ no-repeat 0 50%;
     background-size: auto 60px;
     transition: all .8s ease;
 }
@@ -150,7 +150,7 @@ body.index {
 }
 
 .header.top .logo {
-    background: url("../images/logo.jpg")/*tpa=https://www.slowmist.com/images/logo-b.png*/ no-repeat 0 50%;
+    background: url("../images/langen1.gif")/*tpa=https://www.slowmist.com/images/logo-b.png*/ no-repeat 0 50%;
     background-size: auto 60px;
     transition: all .8s ease;
 }
@@ -180,7 +180,7 @@ body.index {
 .header .link-github { float: left; margin-left: 40px; padding-top: 8px;}
 .header .link-github a { color: #fff;}
 .header .link-github a:hover { color: #fff; text-decoration: underline;}
-.header .link-github a i { display: inline-block; width: 24px; height: 24px; margin-right: 5px; background: url("../images/icon-github.png")/*tpa=https://www.slowmist.com/images/icon-github.png */no-repeat 0 0; background-size: 24px auto; position: relative; top: 6px;}
+.header .link-github a i { display: inline-block; width: 24px; height: 24px; margin-right: 5px; background: url("../images/icon-github.png")/*tpa=https://www.slowmist.com/images/icon-github.png*/ no-repeat 0 0; background-size: 24px auto; position: relative; top: 6px;}
 
 .header.top .link-github a { color: #333;}
 .header.top .link-github a:hover { color: #000; text-decoration: underline;}
@@ -191,6 +191,7 @@ body.index {
 .s-header .link-github a { color: #333;}
 .s-header .link-github a:hover { color: #000; text-decoration: underline;}
 .s-header .link-github a i { display: inline-block; width: 24px; height: 24px; margin-right: 5px; position: relative; top: 6px; background: url("../images/icon-github.png")/*tpa=https://www.slowmist.com/images/icon-github.png*/ no-repeat 0 100%; background-size: 24px auto;}
+
 
 
 #fp-nav ul li a span {
@@ -313,18 +314,18 @@ body.index {
 }
 
 #section0 .fp-bg {
-    background-color: #f5f5f5;
+    background-color: #222;
 }
 
 #section0 h2 {
     font-size: 54px;
-    color: #fff;
+    color: #000;
     font-weight: normal;
 }
 
 #section0 p {
     font-size: 40px;
-    color: #fff;
+    color: #000;
     font-weight: lighter;
 }
 
@@ -351,7 +352,7 @@ body.index {
 
 /*--================================================2service===========================================--*/
 #section1 .fp-bg {
-    background-color: #eeeeee;
+    background-color: #fff;
 }
 
 #section1 p {
@@ -430,7 +431,7 @@ body.index {
 /*--================================================news===========================================--*/
 
 #section2 .fp-bg {
-    background-color: #eee;
+    background-color: #fff;
 }
 
 .news-zt {
@@ -549,13 +550,13 @@ body.index {
 }
 
 #section3 .tit {
-    color: #fff;
+    color: #000;
 }
 
 .about-con {
     width: 800px;
     margin: 0 auto;
-    color: #fff;
+    color: #000;
 }
 
 .about-con p {
@@ -591,12 +592,6 @@ body.index {
 
 /*--================================================5contactUs===========================================--*/
 #section4 .fp-bg {
-    background-color: #fff;
-}
-#section6 .fp-bg {
-    background-color: #fff;
-}
-#section7 .fp-bg {
     background-color: #fff;
 }
 
@@ -719,11 +714,11 @@ body.index {
 /*--================================================6partner===========================================--*/
 
 #section5 .tit {
-    color: #fff;
+    color: #000;
 }
 
 #section5 .fp-bg {
-    background-color: #282828;
+    background-color: #fff;
 }
 
 .partner-con {
@@ -869,7 +864,7 @@ body.index {
     margin-left: 5%;
     width: 178px;
     height: 60px;
-    background: url("../images/logo.jpg")/*tpa=https://www.slowmist.com/images/logo-b.png*/ no-repeat 0 50%;
+    background: url("../images/logo-b.png")/*tpa=https://www.slowmist.com/images/logo-b.png*/ no-repeat 0 50%;
     background-size: auto 60px;
     transition: all .8s ease;
 }
@@ -1161,7 +1156,7 @@ body.index {
     margin-left: 5%;
     width: 178px;
     height: 60px;
-    background: url("../images/logo.jpg")/*tpa=https://www.slowmist.com/images/logo-b.png*/ no-repeat 50% 50%;
+    background: url("../images/logo-b.png")/*tpa=https://www.slowmist.com/images/logo-b.png*/ no-repeat 0 50%;
     background-size: auto 60px;
     transition: all .8s ease;
 }

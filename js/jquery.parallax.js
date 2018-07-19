@@ -36,9 +36,6 @@
  *              driving the motion from the gyroscope output of a smartdevice.
  *              If no gyroscope is available, the cursor position is used.
  */
-
-
-
 ;(function($, window, document, undefined) {
 
   // Strict Mode
@@ -536,6 +533,7 @@
     limit: Plugin.prototype.limit,
     origin: Plugin.prototype.origin
   };
+
   $.fn[NAME] = function (value) {
     var args = arguments;
     return this.each(function () {
